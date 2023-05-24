@@ -1,0 +1,22 @@
+{
+  "name": "codecept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "steps_file.js",
+  "scripts": {
+    "webdriver:start": "selenium-standalone start",
+    "webdriver:install": "selenium-standalone install",
+    "test": "codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^8.10.4",
+    "codeceptjs": "^3.4.1"
+  },
+  "dependencies": {
+    "selenium-standalone": "^8.3.0",
+    "webdriverio": "^6.12.1"
+  }
+}
